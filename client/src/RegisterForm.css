@@ -1,0 +1,42 @@
+
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: rgba(166, 166, 166, 0);
+    color: rgb(255, 0, 0);
+    /* font-weight: bold; */
+    /* padding: 0.5rem; */
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    text-align: center
+}
+
+.form-bg {
+    background-Color:rgba(51, 201, 255, 0);
+    border-Radius: 0.5rem
+}
+
+
+/* body { padding-top: 30px; } */

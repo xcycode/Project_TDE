@@ -1,0 +1,40 @@
+.bg-nav{
+    background-color: rgb(120, 189, 250);
+}
+
+.btn-outline-search {
+    color:rgb(120, 189, 250);
+    background-color: #fff;
+    border-color: rgb(120, 189, 250);;
+}
+
+.card-button {
+    border: 0;
+}
+
+
+.border-user{
+    border: none
+}
+
+.icon{
+    font-size: 80px;
+    color: blue
+}
+
+.test{
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 110px;
+}
+
+.dropdown-toggle::after {
+    display: none; 
+}
+
+body { padding-top: 50px }
