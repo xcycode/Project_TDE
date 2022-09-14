@@ -195,12 +195,12 @@ const Cart = () => {
                             <option value={'D3'}>D3</option>
                             <option value={'E1'}>E1</option>
                             <option value={'E2'}>E2</option>
-                            <option value={'EE'}>TR</option>
+                            <option value={'TR'}>TR</option>
                             <option value={'GYM'}>GYM</option>
                             <option value={'IA'}>IA</option>
                             <option value={'IB'}>IB</option>
                             <option value={'LB'}>LB</option>
-                            <option value={'MA'}>IB</option>
+                            <option value={'MA'}>MA</option>
                             <option value={'RB'}>RB</option>
                             <option value={'S'}>S</option>
                             <option value={'T1'}>T1</option>

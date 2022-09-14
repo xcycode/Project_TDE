@@ -6,10 +6,21 @@ import useAuth from "../../hooks/useAuth";
 import axios from 'axios'
 import { GET_INFO_STORE } from '../../api/apiURL'
 
+const getCookie = (name) => {
+    const strCookie = document.cookie;
+    const arrCookie = strCookie.split("; ");
+    for (var i = 0; i < arrCookie.length; i++) {
+        var arr = arrCookie[i].split("=");
+        if (arr[0] === name) return arr[1];
+    }
+    return "";
+}
+
 const Analysis = () => {
     const HOST = "http://localhost:8000"
     const { auth } = useAuth()
-	const storeAccount = auth.account
+	// const storeAccount = auth.account
+    const storeAccount = getCookie("account")
 	const [storeName, setStoreName] = useState('')
 
     const checkStyle = {
@@ -85,7 +96,6 @@ const Analysis = () => {
                             <Form.Select 
                                 onChange={(e) => setTimeInterval((prev) => ({ ...prev, end:e.target.value }))}
                             >
-                                <option value={null}>請選擇</option>
                                 <option value={null}>請選擇</option>
                                 <option value={'20220131'}>2022 年 1 月</option>
                                 <option value={'20220231'}>2022 年 2 月</option>

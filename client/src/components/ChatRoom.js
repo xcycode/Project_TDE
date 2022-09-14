@@ -11,6 +11,7 @@ const ChatRoom = ({ socket, username, room }) => {
     const style = {
         backgroundColor: "white",
         borderTop: "solid black",
+        borderWidth: "1px",
         // textAlign: "center",
         position: "fixed",
         left: "0",
@@ -90,7 +91,7 @@ const ChatRoom = ({ socket, username, room }) => {
                         event.key === "Enter" && sendMessage();
                     }}
                 />
-                <button onClick={() => sendMessage}>&#9658;</button>
+                <button onClick={() => sendMessage()} >&#9658;</button>
             </div>
             <div style={wrapperDiv}></div>
         </div>
