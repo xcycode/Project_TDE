@@ -74,3 +74,5 @@ export const FAST_HOST = 'http://127.0.0.1:8000'
 // ----------------------  Project ---------------------
 
 export const WEB_SERVER = 'http://localhost:3000'
+// export const WEB_SERVER = 'http://192.168.0.137:3000'
+

@@ -8,8 +8,10 @@ import { GET_ORDER_USER, GET_OWNORDER_DELIVERY } from "../api/apiURL";
 import ChatContext from "../context/ChatProvider";
 
 
-// const socket = io.connect("http://localhost:3001");
-const socket = io.connect("http://192.168.0.137:3001");
+//const socket = io.connect("http://localhost:3001");
+const socket = io.connect("http://140.118.122.148:30312");
+
+
 
 const getCookie = (name) => {
     const strCookie = document.cookie;
